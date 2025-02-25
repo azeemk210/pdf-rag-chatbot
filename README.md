@@ -17,7 +17,7 @@ This guide explains how to install, set up, and use the **Local DeepSeek RAG** s
 ```bash
 # Clone the repo
 git clone https://github.com/azeemk210/pdf-rag-chatbot.git
-cd local_deepseek_rag
+cd pdf-rag-chatbot
 ```
 
 ---
