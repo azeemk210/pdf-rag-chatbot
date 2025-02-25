@@ -1,0 +1,6 @@
+# Ignore PDF files
+*.pdf
+
+# Ignore specific files
+localrag-Copy.py
+installation_guide.txt
