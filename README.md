@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ollama run llama2
 ```
 
-### **Step 3: Start Ollama Server**
+### **Step 3: Start Ollama Server in Terminal 1**
 ```bash
 ollama serve
 ```
@@ -65,7 +65,7 @@ ollama serve
 
 ---
 
-## ⚡ **6. Run the Application**
+## ⚡ **6. Run the Application  in Terminal 2**
 ```bash
 python localrag.py
 ```
@@ -95,11 +95,13 @@ python localrag.py
 ## ❌ **8. Troubleshooting**
 ### **Ollama Not Connecting?**
 ```bash
+$env:OLLAMA_HOST="http://127.0.0.1:11436"
 ollama serve
 ```
 Ensure it's running and accessible at `http://127.0.0.1:11434` or update:
 ```python
-os.environ["OLLAMA_HOST"] = "http://127.0.0.1:11436"
+uncomment this line in localrag.py
+#os.environ["OLLAMA_HOST"] = "http://127.0.0.1:11436"
 ```
 
 ### **Wrong Document Answers?**
