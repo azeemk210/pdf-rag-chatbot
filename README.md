@@ -98,7 +98,7 @@ python localrag.py
 $env:OLLAMA_HOST="http://127.0.0.1:11436"
 ollama serve
 ```
-Ensure it's running and accessible at `http://127.0.0.1:11434` or update:
+Ensure it's running and accessible at `http://127.0.0.1:11436` or update:
 ```python
 uncomment this line in localrag.py
 #os.environ["OLLAMA_HOST"] = "http://127.0.0.1:11436"
